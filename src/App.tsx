@@ -38,7 +38,7 @@ const SectionTitle = ({ cn, en, light = false }: { cn: string, en: string, light
 
 export default function App() {
   // Provided image URL (placeholder for the Sakura Enamel Necklace)
-  const productImage = "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&q=80&w=2000";
+  const productImage = "/product.png";
 
   return (
     <div className="min-h-screen bg-ivory py-16 px-4 sm:px-6 lg:px-12 selection:bg-coral/20">
